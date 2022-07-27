@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-size: 150px;
 }
 
 body {
@@ -66,4 +67,3 @@ footer {
   grid-area: footer;
 }
 
-/*# sourceMappingURL=content.05750a54.css.map */

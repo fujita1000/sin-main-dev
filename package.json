@@ -2,15 +2,22 @@
   "name": "parcel-sass",
   "version": "1.0.0",
   "scripts": {
-    "serve": "parcel src/*.html --no-source-maps --no-cache",
+    "serve": "parcel src/*.html --no-source-maps --no-cache --public-url ./",
     "build": "parcel build src/*.html --no-source-maps --public-url ./ --no-cache --dist-dir end"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "sharp": "^0.29.3"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@parcel/config-default": "^2.6.2"
+  },
+  "transforms": {
+    "webp:*.{jpg,jpeg,png,tiff,webp}": "@parcel/transformer-webp"
+  }
 }
