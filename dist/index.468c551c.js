@@ -532,7 +532,8 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"b9BDZ":[function(require,module,exports) {
+var _resetScss = require("./reset.scss");
 var _styleScss = require("./style.scss");
 
-},{"./style.scss":"h2R8m"}],"h2R8m":[function() {},{}]},["58fS8","b9BDZ"], "b9BDZ", "parcelRequire16bc")
+},{"./reset.scss":"jjI7j","./style.scss":"h2R8m"}],"jjI7j":[function() {},{}],"h2R8m":[function() {},{}]},["58fS8","b9BDZ"], "b9BDZ", "parcelRequire16bc")
 
