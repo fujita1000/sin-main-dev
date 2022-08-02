@@ -18,7 +18,13 @@
 
 <body>
   <div class="container">
-    <header><img src="./images/20211201-420x280.jpg?as=webp" alt="画像"></header>
+        <header>
+          <picture>
+            <source type="image/webp" srcset="./images/20211201-420x280.jpg?as=webp">
+            <source type="image/jpeg" srcset="./images/20211201-420x280.jpg">
+            <img src="./images/20211201-420x280.jpg?as=webp" width="400">
+          </picture>
+        </header>
     <aside></aside>
     <main></main>
     <footer></footer>
