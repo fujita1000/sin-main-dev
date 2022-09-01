@@ -1,0 +1,77 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+img, picture, video, canvas, svg {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+:root {
+  --bg: #ff4b4b;
+  --text: #fff;
+  --nav: #4e4444;
+  --contact: #d9d9d9;
+  --footer: #000;
+}
+
+body p, body span, body dl, nav, ul, h1, h2, h3, h4, h5, h6 {
+  transform: rotate(.03deg);
+}
+
+html, body {
+  height: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+body {
+  background-blend-mode: lighten;
+  height: 100%;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  margin: 0;
+  font-family: ＭＳ 明朝, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho Pro, serif;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-sp {
+  display: none;
+}
+

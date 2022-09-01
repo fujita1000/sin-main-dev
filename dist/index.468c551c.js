@@ -532,8 +532,11 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"b9BDZ":[function(require,module,exports) {
-var _resetScss = require("./reset.scss");
-var _styleScss = require("./style.scss");
+var _resetScss = require("./css/reset.scss");
+var _styleScss = require("./css/style.scss");
+var _scroll = require("./scripts/scroll");
 
-},{"./reset.scss":"jjI7j","./style.scss":"h2R8m"}],"jjI7j":[function() {},{}],"h2R8m":[function() {},{}]},["58fS8","b9BDZ"], "b9BDZ", "parcelRequire16bc")
+},{"./css/reset.scss":"e9Ydr","./css/style.scss":"ke2LH","./scripts/scroll":"dgS1m"}],"e9Ydr":[function() {},{}],"ke2LH":[function() {},{}],"dgS1m":[function(require,module,exports) {
+
+},{}]},["58fS8","b9BDZ"], "b9BDZ", "parcelRequire16bc")
 

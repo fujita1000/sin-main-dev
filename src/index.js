@@ -1,2 +1,3 @@
-import "./reset.scss"
-import "./style.scss";
+import "./css/reset.scss";
+import "./css/style.scss";
+import "./scripts/scroll"
