@@ -1,1 +1,62 @@
 @charset "utf-8";
+
+:root {
+  --bg: #ff4b4b;
+  --text: #fff;
+  --nav: #4e4444;
+  --contact: #d9d9d9;
+  --footer: #000;
+}
+
+body p,
+body span,
+body dl,
+nav,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  transform: rotate(.03deg);
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+body {
+  background-blend-mode: lighten;
+  height: 100%;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  margin: 0;
+  font-family: ＭＳ 明朝, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho Pro, serif;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-sp {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 425px) {
+}
